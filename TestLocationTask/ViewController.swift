@@ -9,9 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var countryLable: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let controller = CountryDectectorViewController()
+        controller.didDetectCountryCode = { countryCode in
+            print(countryCode)
+            self.countryLable.text = countryCode
+        }
+        controller.loadViewIfNeeded()
     }
 
 

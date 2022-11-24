@@ -16,6 +16,7 @@
 		0B05E4E5292D255C00D74756 /* TestLocationTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B05E4E4292D255C00D74756 /* TestLocationTaskTests.swift */; };
 		0B05E4EF292D255C00D74756 /* TestLocationTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B05E4EE292D255C00D74756 /* TestLocationTaskUITests.swift */; };
 		0B05E4F1292D255C00D74756 /* TestLocationTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B05E4F0292D255C00D74756 /* TestLocationTaskUITestsLaunchTests.swift */; };
+		0B05E4FE292D257000D74756 /* CountryDectectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B05E4FD292D257000D74756 /* CountryDectectorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0B05E4EA292D255C00D74756 /* TestLocationTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestLocationTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B05E4EE292D255C00D74756 /* TestLocationTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLocationTaskUITests.swift; sourceTree = "<group>"; };
 		0B05E4F0292D255C00D74756 /* TestLocationTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLocationTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0B05E4FD292D257000D74756 /* CountryDectectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDectectorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				0B05E4D6292D255C00D74756 /* Assets.xcassets */,
 				0B05E4D8292D255C00D74756 /* LaunchScreen.storyboard */,
 				0B05E4DB292D255C00D74756 /* Info.plist */,
+				0B05E4FD292D257000D74756 /* CountryDectectorViewController.swift */,
 			);
 			path = TestLocationTask;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				0B05E4D2292D255B00D74756 /* ViewController.swift in Sources */,
 				0B05E4CE292D255B00D74756 /* AppDelegate.swift in Sources */,
 				0B05E4D0292D255B00D74756 /* SceneDelegate.swift in Sources */,
+				0B05E4FE292D257000D74756 /* CountryDectectorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +441,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CV7Z33GX8H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestLocationTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +469,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CV7Z33GX8H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestLocationTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
